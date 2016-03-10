@@ -88,6 +88,7 @@ public class FloorPlan extends JPanel {
 		g.setFont(g.getFont().deriveFont(10f));
 		g.drawString(name, x, y);
 		g.dispose();
+		
 		try {
 			ImageIO.write(i, "jpg", new File(
 					"C:\\Users\\Jalal Wasif\\Documents\\try.jpg"));
